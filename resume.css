@@ -35,11 +35,11 @@ body { font-family: Georgia; color: #444; }
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
-p { font-size: 100%; line-height: 18px; padding-right: 3em; margin-bottom: 1em;}
+p { font-size: 120%; line-height: 18px; padding-right: 3em; margin-bottom: 1em;}
 a { color: #990003 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
-li { line-height: 18px; list-style-type: disc; padding-right: 3em;}
+li { font-size: 115%; line-height: 18px; list-style-type: disc; padding-right: 3em;}
 ul { margin: 10px; padding-left: 30px; }
 em  { font-style:italic; }
 p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
