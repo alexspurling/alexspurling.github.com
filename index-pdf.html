@@ -59,7 +59,7 @@
 							<p>I like to build software to the highest possible quality and focused on customer needs. 
 							I believe in constantly looking for the tools and processes that can make that happen.
 							</p>
-							<p>I am a strong supporter of automation, short iteration cycles and use of analytics detect
+							<p>I am a strong supporter of automation, short iteration cycles and use of analytics to detect
 							problems and drive development.
 							</p>
 							<p>I have over 7 years' experience working in Agile teams developing Java and Javascript web applications
@@ -75,6 +75,29 @@
 						</div><!--// .yui-u -->
 
 						<div class="yui-u">
+							<div class="job">
+								<h2>Rubric - Process Automation</h2>
+								<h4>2017-Current</h4>
+								<p><a href="www.rubric.com">Rubric</a> is a localisation company translating English software to 40+ languages.</p>
+								<h3>Extracting English Source Text from Client Supplied Files</h3>
+								<p>I wrote Java plugins for the <a href="https://www.sdl.com/software-and-services/translation-software/translation-management/worldserver.html">World Server</a> localisation platform which parsed JSON, YAML, XML and other file types in order to extract their translatable strings.</p>
+								<ul>
+									<li>Created a generic architecture for chaining different file parsers together. This was necessary for example for parsing HTML nested within JSON nested within XML.</li>
+									<li>Worked closely with project managers to make parsers configurable to match behaviour required by different clients.</li>
+									<li>Wrote Javascript front-end and Java servlets integrated into World Server to allow project managers to perform bulk operations on their projects.</li>
+									<li>Created a machine translation plugin using the Google Cloud Translation API.</li>
+								</ul>
+								<p>Technologies: java, html, javascript</p>
+								<h3>Project Automation</h3>
+								<p>I wrote interactive Python scripts to prepare files received from clients for translation, and translated files for delivery back to clients.</p>
+								<ul>
+									<li>Wrote pre- and post-processing scripts to standardise file formats and structure of each client's deliveries.</li>
+									<li>Created a diffing algorithm for key-value data comparing 4 different file versions simultaneously.</li>
+									<li>Created a Excel reports using the openpyxl library.</li>
+									<li>Created a deployment system for our Python scripts based around git and Python virtual environments.</li>
+								</ul>
+								<p>Technologies: python, git</p>
+							</div>
 							<div class="job">
 								<h2>QMetric Group Limited - Server Side Developer</h2>
 								<h4>2012-Current</h4>
@@ -104,7 +127,7 @@
 									<li>Modularised the game code for Restaurant City by converting the build process from ant to Maven.</li>
 								</ul>
 								<h3>Game Content Management System</h3>
-								<p>The Playfish Contentment Management System is a tool designed to speed up iteration cycles and eliminate errors for all our games' content. Built on top of the hierarchical database <a href="http://jackrabbit.apache.org/">Jackrabbit</a>, it supports locks, transactions and branching for game content data.</p>
+								<p>The Playfish Content Management System is a tool designed to speed up iteration cycles and eliminate errors for all our games' content. Built on top of the hierarchical database <a href="http://jackrabbit.apache.org/">Jackrabbit</a>, it supports locks, transactions and branching for game content data.</p>
 								<ul>
 									<li>Helped to design a clean and consistent REST API for clients to interact with the server.</li>
 									<li>Implemented REST services on the server side using <a href="http://jersey.java.net/">Jersey</a>.</li>
@@ -127,31 +150,31 @@
 								of their <a href="http://en.wikipedia.org/wiki/Credit_default_swap">CDS</a> product and starting in 2008, 
 								the Clearing service.</p>
 
-<h3>Clearing Project</h3>
-<ul>
-<li>Lead developer from the start of our high profile Clearing service to provide banks with reference prices for CDS and <a href="http://en.wikipedia.org/wiki/Credit_default_swap_index">credit index</a> instruments.</li>
-<li>Developed a web application to receive and process XML price feeds based on Java, JEE, Spring and Oracle.</li>
-<li>Developed a Java algorithm to calculate CDS prices and trades from contributed bid/ask prices using a simulated <a href="http://en.wikipedia.org/wiki/Auction_algorithm">auction process</a>.</li>
-<li>Mentored and guided other team members in their general development practices.</li>
-<li>Aided the project lead with planning, estimating and architecture and design decisions.</li>
-</ul>
-<p>
-During the project, I suggested and implemented many improvements to our development process such as:
-</p>
-<ul>
-<li>Moved build process from Ant to <a href="http://maven.apache.org/">Maven</a>.</li>
-<li>Created <a href="http://en.wikipedia.org/wiki/RPM_Package_Manager">RPM</a> distribution mechanism for managing deployments.</li>
-<li>Reduced human error and downtime by automating our database upgrade process with a perl script.</li>
-<li>Implemented continuous deployment to our development server using Maven, <a href="http://hudson-ci.org/">Hudson</a> and some custom deployment scripts.</li>
-<li>Created a suite of regression tests with <a href="http://testng.org/doc/index.html">TestNG</a> which would run automatically after each successful deployment.</li>
-</ul>
+								<h3>Clearing Project</h3>
+								<ul>
+									<li>Lead developer from the start of our high profile Clearing service to provide banks with reference prices for CDS and <a href="http://en.wikipedia.org/wiki/Credit_default_swap_index">credit index</a> instruments.</li>
+									<li>Developed a web application to receive and process XML price feeds based on Java, JEE, Spring and Oracle.</li>
+									<li>Developed a Java algorithm to calculate CDS prices and trades from contributed bid/ask prices using a simulated <a href="http://en.wikipedia.org/wiki/Auction_algorithm">auction process</a>.</li>
+									<li>Mentored and guided other team members in their general development practices.</li>
+									<li>Aided the project lead with planning, estimating and architecture and design decisions.</li>
+								</ul>
+								<p>
+								During the project, I suggested and implemented many improvements to our development process such as:
+								</p>
+								<ul>
+									<li>Moved build process from Ant to <a href="http://maven.apache.org/">Maven</a>.</li>
+									<li>Created <a href="http://en.wikipedia.org/wiki/RPM_Package_Manager">RPM</a> distribution mechanism for managing deployments.</li>
+									<li>Reduced human error and downtime by automating our database upgrade process with a perl script.</li>
+									<li>Implemented continuous deployment to our development server using Maven, <a href="http://hudson-ci.org/">Hudson</a> and some custom deployment scripts.</li>
+									<li>Created a suite of regression tests with <a href="http://testng.org/doc/index.html">TestNG</a> which would run automatically after each successful deployment.</li>
+								</ul>
 
-<h3>Other Projects</h3>
-<ul>
-<li>Created a batch task to calculate composite <a href="http://en.wikipedia.org/wiki/Loan_Credit_Default_Swap_Index">loan credit index</a> prices (aggregation of contributed prices).</li>
-<li>Re-architected our caching mechanism to give clients access to historical reports.</li>
-<li>Implemented a historical record for client mappings (i.e. the data a client is subscribed to) to allow reports to be generated for past dates.</li>
-</ul>
+								<h3>Other Projects</h3>
+								<ul>
+									<li>Created a batch task to calculate composite <a href="http://en.wikipedia.org/wiki/Loan_Credit_Default_Swap_Index">loan credit index</a> prices (aggregation of contributed prices).</li>
+									<li>Re-architected our caching mechanism to give clients access to historical reports.</li>
+									<li>Implemented a historical record for client mappings (i.e. the data a client is subscribed to) to allow reports to be generated for past dates.</li>
+								</ul>
 								<p>Technologies: java, jee, spring, ruby, svn, maven, oracle, xml</p>
 							</div>
 						</div><!--// .yui-u -->
@@ -195,6 +218,7 @@ During the project, I suggested and implemented many improvements to our develop
 							<p>Some projects that I've worked on in my spare time are publicly viewable:</p>
 							<ul>
 								<li>Android Restaurant Search app: <a href="https://github.com/alexspurling/mimi">https://github.com/alexspurling/mimi</a></li>
+								<li>The Marylebone Mountaineering Club website: <a href="http://themmc.org.uk">http://themmc.org.uk</a> configured using an Ansible playbook: <a href="https://github.com/alexspurling/themmc/">https://github.com/alexspurling/themmc/</a>.</li>
 								<li>Nationwide OFX download tool: <a href="http://code.google.com/p/ofx-downloader/">http://code.google.com/p/ofx-downloader/</a>.</li>
 								<li>Mandelbrot fractal renderer written in Clojure: <a href="http://developmentjungle.wordpress.com">http://developmentjungle.wordpress.com</a>.</li>
 								<li>More can be found at my Github profile: <a href="https://github.com/alexspurling/">https://github.com/alexspurling/</a>.</li>
