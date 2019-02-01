@@ -33,7 +33,7 @@ body { font-family: Georgia; color: #444; }
 /* //-- core typography and style -- */
 #hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
 h2 { font-size: 152% }
-h3, h4 { font-size: 122%; }
+h3, h4 { font-size: 122%; font-weight: bold; }
 h1, h2, h3, h4 { color: #333; }
 p { font-size: 120%; line-height: 18px; padding-right: 3em; margin-bottom: 1em;}
 a { color: #990003 }
@@ -65,6 +65,7 @@ a#pdf:hover { background: #222; }
 .skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
 .talent { width: 32%; float: left }
 .talent h2 { margin-bottom: 6px; }
+.technologies { font-size: small }
 
 #srt-ttab { margin-bottom: 100px; text-align: center;  }
 #srt-ttab img.last { margin-top: 20px }
