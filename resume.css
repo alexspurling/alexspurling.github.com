@@ -65,7 +65,22 @@ a#pdf:hover { background: #222; }
 .skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
 .talent { width: 32%; float: left }
 .talent h2 { margin-bottom: 6px; }
-.technologies { font-style: italic }
+
+fieldset.technologies {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.technologies p {
+    font-style: italic;
+    margin: 0;
+}
+.technologies legend {
+    font-size: medium;
+    font-style: normal;
+}
 
 #srt-ttab { margin-bottom: 100px; text-align: center;  }
 #srt-ttab img.last { margin-top: 20px }
